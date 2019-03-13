@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-fields-filter",
+  "version": "1.0.0",
+  "description": "Mongoose Fields Filter provides private paths and custom permissions filtering",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "coverage": "nyc --reporter=html --reporter=text npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "author": "Felipe Augusto <fesntmail@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "mongoose": "^5.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.0.0",
+    "nyc": "^13.3.0"
+  },
+  "dependencies": {
+    "lodash.pick": "^4.4.0"
+  }
+}

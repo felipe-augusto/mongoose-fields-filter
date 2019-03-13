@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "8"
+  - "6"
+env:
+  - MONGOOSE_VERSION=5
+services: mongodb
+cache: yarn
+git:
+  depth: 3
+before_script:
+  - sleep 15
+install:
+  - yarn
+  - yarn add --dev mongoose@^$MONGOOSE_VERSION
+script:
+  - yarn coverage
+jobs:
+  include:
+  - stage: deploy
+    if: env(MONGOOSE_VERSION) = 5
+    node_js: "8"
+    script:
+      - yarn coverage
+      - yarn coveralls
