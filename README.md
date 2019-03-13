@@ -1,6 +1,6 @@
 # Mongoose Fields Filter
 
-[![Build Status](https://travis-ci.org/felipe-augusto/mongoose-fields-filter.png?branch=master)](https://travis-ci.org/felipe-augusto/mongoose-fields-filter)
+[![Build Status](https://travis-ci.com/felipe-augusto/mongoose-fields-filter.svg?branch=master)](https://travis-ci.org/felipe-augusto/mongoose-fields-filter)
 [![Coverage Status](https://coveralls.io/repos/github/felipe-augusto/mongoose-fields-filter/badge.svg?branch=master)](https://coveralls.io/github/felipe-augusto/mongoose-fields-filter?branch=master)
 [![npm version](https://badge.fury.io/js/mongoose-fields-filter.svg)](https://badge.fury.io/js/mongoose-fields-filter)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felipe-augusto/mongoose-fields-filter/master/LICENSE)
