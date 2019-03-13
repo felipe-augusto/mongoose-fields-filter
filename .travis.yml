@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - "8"
-  - "6"
 env:
   - MONGOOSE_VERSION=5
 services: mongodb

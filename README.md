@@ -1,5 +1,11 @@
 # Mongoose Fields Filter
 
+[![Build Status](https://travis-ci.org/felipe-augusto/mongoose-fields-filter.png?branch=master)](https://travis-ci.org/felipe-augusto/mongoose-fields-filter)
+[![Coverage Status](https://coveralls.io/repos/github/felipe-augusto/mongoose-fields-filter/badge.svg?branch=master)](https://coveralls.io/github/felipe-augusto/mongoose-fields-filter?branch=master)
+[![npm version](https://badge.fury.io/js/mongoose-fields-filter.svg)](https://badge.fury.io/js/mongoose-fields-filter)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/felipe-augusto/mongoose-fields-filter/master/LICENSE)
+
+
 ## About
 
 Mongoose plugin that provides private paths and custom permissions filtering
@@ -54,7 +60,7 @@ const UserSchema = new mongoose.Schema({
 
 Scope query by passing which `access` you want the query to have, and then make the query:
 
-```
+```javascript
 const AccessBoundModel = UserModel.byAccess(['support', 'financial'])
 const user = AccessBoundModel.findOne({})
 // filtering works here
@@ -106,4 +112,4 @@ SomeSchema.plugin(schema, config);
 ### LICENSE
 
 The files in this archive are released under MIT license.
-You can find a copy of this license in [LICENSE]().
+You can find a copy of this license in [LICENSE](https://github.com/felipe-augusto/mongoose-fields-filter/raw/master/LICENSE).
