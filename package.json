@@ -9,6 +9,18 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "release": "release-it"
   },
+  "keywords": [
+    "private",
+    "property",
+    "fields",
+    "path",
+    "filter",
+    "hide",
+    "hidden",
+    "mongoose",
+    "mongodb",
+    "mongo"
+  ],
   "author": "Felipe Augusto <fesntmail@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
