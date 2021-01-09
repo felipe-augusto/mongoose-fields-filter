@@ -17,9 +17,9 @@ Mongo Fields Filter is compatible with mongoose 5.
 ## Install
 
 ```sh
-$ npm i -S mongo-fields-filter
+$ npm i -S mongoose-fields-filter
 // or
-$ yarn add mongo-fields-filter
+$ yarn add mongoose-fields-filter
 ```
 
 ## Use
